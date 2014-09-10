@@ -94,19 +94,6 @@
     }
 }
 
-- (void)hideSearchBar{
-    [ UIView animateWithDuration : 0.4 animations :^{
-        self.tableView.contentOffset =  CGPointMake (0 ,self.searchDisplayController.searchBar.frame.size.height);
-    } completion : nil ];
-}
-
-- (void)showSearchBar{
-    [ UIView animateWithDuration : 0.4 animations :^{
-        self.tableView.contentOffset =  CGPointMake (0 ,0);
-    } completion : nil ];
-}
-
-
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
