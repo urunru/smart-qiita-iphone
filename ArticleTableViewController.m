@@ -13,6 +13,8 @@
 @interface ArticleTableViewController ()
 
 @property NSArray *articles;
+@property NSDictionary *sendArticle;
+
 @end
 
 @implementation ArticleTableViewController
@@ -85,6 +87,12 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    self.sendArticle = self.articles[indexPath.row];
+    [self performSegueWithIdentifier:@"next" sender:self];
+}
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Make sure your segue name in storyboard is the same as this line
@@ -92,7 +100,7 @@
     {
         // Get reference to the destination view controller
         DetailViewController *detailViewController = [segue destinationViewController];
-        detailViewController.recieveUrl = @"http://google.com";
+        detailViewController.recieveArticle = self.sendArticle;
     }
 }
 

@@ -29,7 +29,7 @@
     // Do any additional setup after loading the view.
     
     // Stringオブジェクトをつくります
-    NSString* urlString = self.recieveUrl;
+    NSString* urlString = self.recieveArticle[@"url"];
     // これを使って、URLオブジェクトをつくります
     NSURL* googleURL = [NSURL URLWithString: urlString];
     // さらにこれを使って、Requestオブジェクトをつくります

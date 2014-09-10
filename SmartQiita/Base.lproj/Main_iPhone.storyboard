@@ -64,7 +64,6 @@ ERFDYXBpc3RyYW5vIDMueCDjgacgR2l0SHVi77yI44OX44Op44Kk44OZ44O844OI44Oq44Od44K444OI
                                     <outlet property="titleLabel" destination="gM5-CZ-mZ8" id="srL-sX-x1z"/>
                                     <outlet property="userImageView" destination="KZR-i9-Syq" id="hcd-1T-UoT"/>
                                     <outlet property="userLabel" destination="b5E-48-Vt1" id="Vna-9E-unA"/>
-                                    <segue destination="4Yi-Xj-TJo" kind="push" identifier="next" id="Wfp-f5-jOB"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -74,6 +73,9 @@ ERFDYXBpc3RyYW5vIDMueCDjgacgR2l0SHVi77yI44OX44Op44Kk44OZ44O844OI44Oq44Od44K444OI
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="GBT-05-QtD"/>
+                    <connections>
+                        <segue destination="4Yi-Xj-TJo" kind="push" identifier="next" id="E8d-YY-Tiz"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p90-9W-EAA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
