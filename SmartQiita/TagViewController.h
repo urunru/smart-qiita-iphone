@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TagViewController : UICollectionViewController
+- (IBAction)addTag:(id)sender;
 
 @end

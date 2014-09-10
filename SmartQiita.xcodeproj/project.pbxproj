@@ -133,6 +133,8 @@
 				76BB903219C076CB002E95D3 /* MenuTableViewController.m */,
 				76BB903719C085EC002E95D3 /* TagViewController.h */,
 				76BB903819C085EC002E95D3 /* TagViewController.m */,
+				76BB903A19C0870D002E95D3 /* TagViewCell.h */,
+				76BB903B19C0870D002E95D3 /* TagViewCell.m */,
 				7617FF3C19C049F500A3B9BC /* ArticleTableViewCell.h */,
 				7617FF3D19C049F500A3B9BC /* ArticleTableViewCell.m */,
 				7617FF3919C0478D00A3B9BC /* ArticleTableViewController.h */,
@@ -145,8 +147,6 @@
 				7617FF1619C0475700A3B9BC /* Main_iPad.storyboard */,
 				7617FF1C19C0475700A3B9BC /* Images.xcassets */,
 				7617FF0819C0475700A3B9BC /* Supporting Files */,
-				76BB903A19C0870D002E95D3 /* TagViewCell.h */,
-				76BB903B19C0870D002E95D3 /* TagViewCell.m */,
 			);
 			path = SmartQiita;
 			sourceTree = "<group>";

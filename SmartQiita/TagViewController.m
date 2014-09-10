@@ -30,7 +30,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.tags = [NSArray arrayWithObjects:@"ruby",@"javascript",@"rails",@"php",@"ios",@"objective-c",@"python",@"android",@"c",@"git",@"java",@"linux",@"mac",@"vim",@"node",@"xcode",@"iphone",@"mysql",@"aws",@"vagrant",@"jquery",@"centos",@"emacs",@"ubuntu",@"css",@"windows",@"macosx",@"bash",@"swift",@"scala",@"shellscript",@"どう書く",@"haskell",@"github",@"coffeescript",@"docker",@"html",@"go",@"zsh",@"perl",@"qiita",@"r",@"chef",@"heroku",@"html5",@"angularjs",@"unity",@"apache",@"homebrew",@"nginx",@"wordpress",@"osx",@"rspec",@"yhpg",@"eclipse",@"chrome",@"shell",@"adventcalendar",@"jenkins",@"ssh",@"mongodb",@"unity3d",@"virtualbox",@"sublimetext2",@"cakephp",@"twitter",@"clojure",@"grunt",@"cocos2d",@"ansible",@"groovy",@"titanium",@"ec2",@"gem",@"markdown",@"test",@"postgresql",@"fluentd",@"facebook",@"fuelphp",@"backbone",@"golang",@"tmux",@"capistrano",@"rbenv",@"django",@"css3",@"rails4",@"redmine",@"debian",@"laravel",@"excel",@"bootstrap",@"xamarin",@"terminal",@"sass",@"gitlab",@"sql",@"unix",@"googleappsscript", nil];
+    self.tags = [NSArray arrayWithObjects:@"Ruby",@"Javascript",@"Rails",@"php",@"ios",@"objective-c",@"python",@"android",@"c",@"git",@"Java",@"linux",@"mac",@"vim",@"node",@"xcode",@"iphone",@"mysql",@"aws",@"vagrant",@"jquery",@"centos",@"emacs",@"ubuntu",@"css",@"windows",@"macosx",@"bash",@"swift",@"scala",@"shellscript",@"どう書く",@"haskell",@"github",@"coffeescript",@"docker",@"html",@"go",@"zsh",@"perl",@"qiita",@"R",@"chef",@"heroku",@"html5",@"angularjs",@"unity",@"apache",@"homebrew",@"nginx",@"wordpress",@"osx",@"rspec",@"YHPG",@"eclipse",@"chrome",@"shell",@"adventcalendar",@"jenkins",@"ssh",@"mongodb",@"unity3D",@"Virtualbox",@"sublimetext2",@"cakephp",@"twitter",@"clojure",@"grunt",@"cocos2D",@"ansible",@"groovy",@"titanium",@"EC2",@"gem",@"markdown",@"test",@"postgresql",@"fluentd",@"facebook",@"fuelphp",@"Backbone",@"golang",@"tmux",@"capistrano",@"rbenv",@"django",@"css3",@"Rails4",@"redmine",@"debian",@"laravel",@"excel",@"bootstrap",@"xamarin",@"terminal",@"sass",@"gitlab",@"sql",@"unix",@"googleappsscript", nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -70,4 +70,7 @@
 }
 */
 
+- (IBAction)addTag:(id)sender {
+  #warning タグは小文字に変換して渡すこと
+}
 @end
