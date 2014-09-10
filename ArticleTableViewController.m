@@ -8,6 +8,7 @@
 
 #import "ArticleTableViewController.h"
 #import "ArticleTableViewCell.h"
+#import "DetailViewController.h"
 
 @interface ArticleTableViewController ()
 
@@ -82,6 +83,17 @@
     cell.userImageView.image = image;
 
     return cell;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Make sure your segue name in storyboard is the same as this line
+    if ([[segue identifier] isEqualToString:@"next"])
+    {
+        // Get reference to the destination view controller
+        DetailViewController *detailViewController = [segue destinationViewController];
+        detailViewController.recieveUrl = @"http://google.com";
+    }
 }
 
 /*

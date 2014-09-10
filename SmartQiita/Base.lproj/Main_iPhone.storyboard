@@ -13,11 +13,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="articleCell" id="SVx-xI-nlc" customClass="ArticleTableViewCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="articleCell" id="SVx-xI-nlc" customClass="ArticleTableViewCell">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SVx-xI-nlc" id="hJ7-SC-amk">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="295" translatesAutoresizingMaskIntoConstraints="NO" id="gM5-CZ-mZ8">
@@ -64,6 +64,7 @@ ERFDYXBpc3RyYW5vIDMueCDjgacgR2l0SHVi77yI44OX44Op44Kk44OZ44O844OI44Oq44Od44K444OI
                                     <outlet property="titleLabel" destination="gM5-CZ-mZ8" id="srL-sX-x1z"/>
                                     <outlet property="userImageView" destination="KZR-i9-Syq" id="hcd-1T-UoT"/>
                                     <outlet property="userLabel" destination="b5E-48-Vt1" id="Vna-9E-unA"/>
+                                    <segue destination="4Yi-Xj-TJo" kind="push" identifier="next" id="Wfp-f5-jOB"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -87,6 +88,7 @@ ERFDYXBpc3RyYW5vIDMueCDjgacgR2l0SHVi77yI44OX44Op44Kk44OZ44O844OI44Oq44Od44K444OI
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </webView>
+                    <navigationItem key="navigationItem" id="C5D-IR-cbB"/>
                     <connections>
                         <outlet property="webView" destination="6em-8j-UPq" id="vH9-Ey-Xuk"/>
                     </connections>
