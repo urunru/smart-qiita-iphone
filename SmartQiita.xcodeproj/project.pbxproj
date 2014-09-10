@@ -24,6 +24,7 @@
 		7617FF3B19C0478D00A3B9BC /* ArticleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7617FF3A19C0478D00A3B9BC /* ArticleTableViewController.m */; };
 		7617FF3E19C049F500A3B9BC /* ArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7617FF3D19C049F500A3B9BC /* ArticleTableViewCell.m */; };
 		7617FF4419C0538300A3B9BC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7617FF4319C0538300A3B9BC /* DetailViewController.m */; };
+		76BB903319C076CB002E95D3 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB903219C076CB002E95D3 /* MenuTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		7617FF3D19C049F500A3B9BC /* ArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleTableViewCell.m; path = ../ArticleTableViewCell.m; sourceTree = "<group>"; };
 		7617FF4219C0538300A3B9BC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		7617FF4319C0538300A3B9BC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		76BB903119C076CB002E95D3 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuTableViewController.h; path = ../MenuTableViewController.h; sourceTree = "<group>"; };
+		76BB903219C076CB002E95D3 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewController.m; path = ../MenuTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,18 +123,20 @@
 		7617FF0719C0475700A3B9BC /* SmartQiita */ = {
 			isa = PBXGroup;
 			children = (
+				76BB903119C076CB002E95D3 /* MenuTableViewController.h */,
+				76BB903219C076CB002E95D3 /* MenuTableViewController.m */,
 				7617FF3C19C049F500A3B9BC /* ArticleTableViewCell.h */,
 				7617FF3D19C049F500A3B9BC /* ArticleTableViewCell.m */,
 				7617FF3919C0478D00A3B9BC /* ArticleTableViewController.h */,
 				7617FF3A19C0478D00A3B9BC /* ArticleTableViewController.m */,
+				7617FF4219C0538300A3B9BC /* DetailViewController.h */,
+				7617FF4319C0538300A3B9BC /* DetailViewController.m */,
 				7617FF1019C0475700A3B9BC /* AppDelegate.h */,
 				7617FF1119C0475700A3B9BC /* AppDelegate.m */,
 				7617FF1319C0475700A3B9BC /* Main_iPhone.storyboard */,
 				7617FF1619C0475700A3B9BC /* Main_iPad.storyboard */,
 				7617FF1C19C0475700A3B9BC /* Images.xcassets */,
 				7617FF0819C0475700A3B9BC /* Supporting Files */,
-				7617FF4219C0538300A3B9BC /* DetailViewController.h */,
-				7617FF4319C0538300A3B9BC /* DetailViewController.m */,
 			);
 			path = SmartQiita;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 				7617FF1219C0475700A3B9BC /* AppDelegate.m in Sources */,
 				7617FF3B19C0478D00A3B9BC /* ArticleTableViewController.m in Sources */,
 				7617FF3E19C049F500A3B9BC /* ArticleTableViewCell.m in Sources */,
+				76BB903319C076CB002E95D3 /* MenuTableViewController.m in Sources */,
 				7617FF0E19C0475700A3B9BC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
