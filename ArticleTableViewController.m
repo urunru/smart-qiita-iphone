@@ -74,7 +74,8 @@
     NSURL *url = [NSURL URLWithString:self.articles[indexPath.row][@"user_image_url"]];
     NSData *data = [NSData dataWithContentsOfURL:url];
     UIImage *image = [UIImage imageWithData:data];
-    
+
+    // セルをセット
     cell.titleLabel.text = self.articles[indexPath.row][@"title"];
     cell.userLabel.text = self.articles[indexPath.row][@"user_name"];
     cell.stockLabel.text = [self.articles[indexPath.row][@"stock_count"] stringValue];
