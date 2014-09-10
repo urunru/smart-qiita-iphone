@@ -27,7 +27,13 @@
                             <outlet property="delegate" destination="GNP-wO-vx2" id="uWf-u6-KFd"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="7bp-tZ-ZpV"/>
+                    <navigationItem key="navigationItem" id="7bp-tZ-ZpV">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="AGm-bv-Won">
+                            <connections>
+                                <segue destination="g11-M6-ZBv" kind="push" id="6mh-mF-26D"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="searchDisplayController" destination="X0H-cb-MYm" id="wiZ-7L-gh1"/>
                         <segue destination="BpN-bh-5qs" kind="push" identifier="next" id="jnB-MX-jF1"/>
@@ -44,6 +50,41 @@
                 </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="590" y="-29"/>
+        </scene>
+        <!--Tag View Controller-->
+        <scene sceneID="6dd-ki-hYE">
+            <objects>
+                <collectionViewController autoresizesArchivedViewToFullSize="NO" id="g11-M6-ZBv" customClass="TagViewController" sceneMemberID="viewController">
+                    <collectionView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" id="Jyv-mV-L0F">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ukl-JU-v1r">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="zgS-9B-7FH">
+                                <rect key="frame" x="0.0" y="64" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="g11-M6-ZBv" id="CHz-UC-U4l"/>
+                            <outlet property="delegate" destination="g11-M6-ZBv" id="4yj-Q9-5lI"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="lAF-KD-l08"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mes-85-cy4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1071" y="-737"/>
         </scene>
         <!--Article Table View Controller-->
         <scene sceneID="Eim-9Y-cIC">
