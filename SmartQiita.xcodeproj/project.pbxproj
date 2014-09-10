@@ -26,6 +26,7 @@
 		7617FF4419C0538300A3B9BC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7617FF4319C0538300A3B9BC /* DetailViewController.m */; };
 		76BB903319C076CB002E95D3 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB903219C076CB002E95D3 /* MenuTableViewController.m */; };
 		76BB903919C085EC002E95D3 /* TagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB903819C085EC002E95D3 /* TagViewController.m */; };
+		76BB903C19C0870D002E95D3 /* TagViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB903B19C0870D002E95D3 /* TagViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		76BB903219C076CB002E95D3 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewController.m; path = ../MenuTableViewController.m; sourceTree = "<group>"; };
 		76BB903719C085EC002E95D3 /* TagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagViewController.h; sourceTree = "<group>"; };
 		76BB903819C085EC002E95D3 /* TagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagViewController.m; sourceTree = "<group>"; };
+		76BB903A19C0870D002E95D3 /* TagViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagViewCell.h; sourceTree = "<group>"; };
+		76BB903B19C0870D002E95D3 /* TagViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,8 @@
 				7617FF1619C0475700A3B9BC /* Main_iPad.storyboard */,
 				7617FF1C19C0475700A3B9BC /* Images.xcassets */,
 				7617FF0819C0475700A3B9BC /* Supporting Files */,
+				76BB903A19C0870D002E95D3 /* TagViewCell.h */,
+				76BB903B19C0870D002E95D3 /* TagViewCell.m */,
 			);
 			path = SmartQiita;
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 				76BB903319C076CB002E95D3 /* MenuTableViewController.m in Sources */,
 				7617FF0E19C0475700A3B9BC /* main.m in Sources */,
 				76BB903919C085EC002E95D3 /* TagViewController.m in Sources */,
+				76BB903C19C0870D002E95D3 /* TagViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
