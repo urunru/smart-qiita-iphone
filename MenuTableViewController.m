@@ -44,8 +44,7 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     self.tags = [self defaultTags];
-//    [self hideSearchBar];
-//    [self showSearchBar];
+    self.title = @"タグ一覧";
 }
 
 - (void)didReceiveMemoryWarning
