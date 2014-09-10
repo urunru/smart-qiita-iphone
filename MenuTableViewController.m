@@ -7,10 +7,12 @@
 //
 
 #import "MenuTableViewController.h"
+#import "ArticleTableViewController.h"
 
 @interface MenuTableViewController ()
 
 @property NSArray *tags;
+@property NSString *sendTag;
 
 @end
 
@@ -71,6 +73,23 @@
     cell.textLabel.text = self.tags[indexPath.row];
     
     return cell;
+}
+
+//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    self.sendTag = self.tags[indexPath.row];
+//    [self performSegueWithIdentifier:@"next" sender:self];
+//}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Make sure your segue name in storyboard is the same as this line
+    if ([[segue identifier] isEqualToString:@"cell"])
+    {
+        // Get reference to the destination view controller
+        ArticleTableViewController *articleViewController = [segue destinationViewController];
+        articleViewController.recieveTag = @"ruby";
+    }
 }
 
 /*
