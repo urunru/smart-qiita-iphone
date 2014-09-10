@@ -75,20 +75,20 @@
     return cell;
 }
 
-//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    self.sendTag = self.tags[indexPath.row];
-//    [self performSegueWithIdentifier:@"next" sender:self];
-//}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    self.sendTag = self.tags[indexPath.row];
+    [self performSegueWithIdentifier:@"next" sender:self];
+}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Make sure your segue name in storyboard is the same as this line
-    if ([[segue identifier] isEqualToString:@"cell"])
+    if ([[segue identifier] isEqualToString:@"next"])
     {
         // Get reference to the destination view controller
         ArticleTableViewController *articleViewController = [segue destinationViewController];
-        articleViewController.recieveTag = @"ruby";
+        articleViewController.recieveTag = self.sendTag;
     }
 }
 

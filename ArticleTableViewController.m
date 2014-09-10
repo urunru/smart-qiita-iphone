@@ -30,7 +30,6 @@
 
 -(void)getJson
 {
-    NSLog(@"%@", self.recieveTag);
     NSString *tag = self.recieveTag;
     NSString *url = [NSString stringWithFormat:@"http://smart-qiita.herokuapp.com/article/tag/%@/",tag];
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
