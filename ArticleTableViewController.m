@@ -64,17 +64,15 @@
 {
     ArticleTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"articleCell" forIndexPath:indexPath];
     
-    // ユーザー画像をダウンロード
-#warning 画像ダウンロード処理に時間がかかりすぎているのでコメントアウト
-//    NSURL *url = [NSURL URLWithString:self.recieveArticles[indexPath.row][@"user_image_url"]];
-//    NSData *data = [NSData dataWithContentsOfURL:url];
-//    UIImage *image = [UIImage imageWithData:data];
-
+    // ユーザー画像の準備
+    NSURL *url = [NSURL URLWithString:self.recieveArticles[indexPath.row][@"user_image_url"]];
+    UIImage *placeholderImage = [UIImage imageNamed:@"placeholder.png"];
+    
     // セルをセット
-    cell.titleLabel.text = self.recieveArticles[indexPath.row][@"title"];
-    cell.userLabel.text = self.recieveArticles[indexPath.row][@"user_name"];
-    cell.stockLabel.text = [self.recieveArticles[indexPath.row][@"stock_count"] stringValue];
-//    cell.userImageView.image = image;
+    cell.titleLabel.text = self.recieveArticles[indexPath.row][@"title"]; // タイトル
+    cell.userLabel.text = self.recieveArticles[indexPath.row][@"user_name"]; // ユーザー名
+    cell.stockLabel.text = [self.recieveArticles[indexPath.row][@"stock_count"] stringValue]; // ストック数
+    [cell.userImageView sd_setImageWithURL:url placeholderImage:placeholderImage]; // ユーザー画像
 
     return cell;
 }
