@@ -12,7 +12,9 @@
 @interface MenuTableViewController ()
 
 @property NSArray *tags;
+@property NSArray *articles;
 @property NSString *sendTag;
+@property NSArray *sendArticles;
 
 @end
 
@@ -33,6 +35,17 @@
     return tags;
 }
 
+-(NSArray *)getArticles;
+{
+    self.tags = [self defaultTags];
+    NSString *strTags = [self.tags componentsJoinedByString:@","];
+    NSString *url = [NSString stringWithFormat:@"http://smart-qiita.herokuapp.com/article/?tags=%@", strTags];
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
+    NSData *json = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+    return [NSJSONSerialization JSONObjectWithData:json options:NSJSONReadingAllowFragments error:nil];
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -44,7 +57,12 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     self.tags = [self defaultTags];
+    self.articles = [self getArticles];
     self.title = @"タグ一覧";
+    
+//    NSArray *data = [NSArray arrayWithObject:[NSMutableDictionary dictionaryWithObject:@"foo" forKey:@"BAR"]];
+//    NSLog(@"%@", self.articles[1]);
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -79,6 +97,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     self.sendTag = self.tags[indexPath.row];
+    self.sendArticles = [self.articles filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"(tag == %@)", self.sendTag]];
+    
     [self performSegueWithIdentifier:@"next" sender:self];
 }
 
@@ -90,6 +110,7 @@
         // Get reference to the destination view controller
         ArticleTableViewController *articleViewController = [segue destinationViewController];
         articleViewController.recieveTag = self.sendTag;
+        articleViewController.recieveArticles = self.sendArticles;
     }
 }
 

@@ -11,5 +11,6 @@
 @interface ArticleTableViewController : UITableViewController
 
 @property (strong, nonatomic) NSString *recieveTag;
+@property (strong, nonatomic) NSArray *recieveArticles;
 
 @end
