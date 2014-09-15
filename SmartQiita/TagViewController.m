@@ -12,6 +12,8 @@
 @interface TagViewController ()
 
 @property NSArray *tags;
+@property NSArray *selectedItems;
+@property NSArray *selectedTags;
 
 @end
 
@@ -31,6 +33,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.tags = [NSArray arrayWithObjects:@"Ruby",@"Javascript",@"Rails",@"php",@"ios",@"objective-c",@"python",@"android",@"c",@"git",@"Java",@"linux",@"mac",@"vim",@"node",@"xcode",@"iphone",@"mysql",@"aws",@"vagrant",@"jquery",@"centos",@"emacs",@"ubuntu",@"css",@"windows",@"macosx",@"bash",@"swift",@"scala",@"shellscript",@"どう書く",@"haskell",@"github",@"coffeescript",@"docker",@"html",@"go",@"zsh",@"perl",@"qiita",@"R",@"chef",@"heroku",@"html5",@"angularjs",@"unity",@"apache",@"homebrew",@"nginx",@"wordpress",@"osx",@"rspec",@"YHPG",@"eclipse",@"chrome",@"shell",@"adventcalendar",@"jenkins",@"ssh",@"mongodb",@"unity3D",@"Virtualbox",@"sublimetext2",@"cakephp",@"twitter",@"clojure",@"grunt",@"cocos2D",@"ansible",@"groovy",@"titanium",@"EC2",@"gem",@"markdown",@"test",@"postgresql",@"fluentd",@"facebook",@"fuelphp",@"Backbone",@"golang",@"tmux",@"capistrano",@"rbenv",@"django",@"css3",@"Rails4",@"redmine",@"debian",@"laravel",@"excel",@"bootstrap",@"xamarin",@"terminal",@"sass",@"gitlab",@"sql",@"unix",@"googleappsscript", nil];
+    
+    self.collectionView.allowsMultipleSelection = YES;
 }
 
 - (void)didReceiveMemoryWarning
@@ -61,6 +65,12 @@
     return cell;
 }
 
+// 選択の度に選択中のアイテムリストを NSLog に出力する
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    self.selectedItems = [self.collectionView indexPathsForSelectedItems];
+//    TagViewCell *datasetCell = (TagViewCell *)[collectionView cellForItemAtIndexPath:selectedItems[0]];
+//    NSLog(@"%@", datasetCell.tagLabel.text);
+}
 /*
 #pragma mark - Navigation
 
@@ -73,6 +83,11 @@
 */
 
 - (IBAction)addTag:(id)sender {
-  #warning タグは小文字に変換して渡すこと
+    self.selectedTags = [[NSArray alloc] init];
+    for (NSIndexPath *item in self.selectedItems) {
+        TagViewCell *cell = (TagViewCell *)[self.collectionView cellForItemAtIndexPath:item];
+        self.selectedTags = [self.selectedTags arrayByAddingObject:cell.tagLabel.text];
+    }
+    NSLog(@"%@", self.selectedTags);
 }
 @end
