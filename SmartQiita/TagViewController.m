@@ -57,20 +57,22 @@
 {
     static NSString *CellIdentifier = @"cell";
     TagViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CellIdentifier forIndexPath:indexPath];
-    
+
+    UIView *selectedView = [UIView new];
+    selectedView.backgroundColor = [UIColor darkGrayColor];
     NSString *tagName = self.tags[indexPath.row];
+    
     cell.tagLabel.text = tagName;
     cell.tagImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@.jpg",tagName]];
-
+    cell.selectedBackgroundView = selectedView;
+    
     return cell;
 }
 
-// 選択の度に選択中のアイテムリストを NSLog に出力する
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     self.selectedItems = [self.collectionView indexPathsForSelectedItems];
-//    TagViewCell *datasetCell = (TagViewCell *)[collectionView cellForItemAtIndexPath:selectedItems[0]];
-//    NSLog(@"%@", datasetCell.tagLabel.text);
 }
+
 /*
 #pragma mark - Navigation
 
