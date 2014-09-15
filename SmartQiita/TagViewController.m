@@ -8,6 +8,7 @@
 
 #import "TagViewController.h"
 #import "TagViewCell.h"
+#import "MenuTableViewController.h"
 
 @interface TagViewController ()
 
@@ -90,6 +91,8 @@
         TagViewCell *cell = (TagViewCell *)[self.collectionView cellForItemAtIndexPath:item];
         self.selectedTags = [self.selectedTags arrayByAddingObject:cell.tagLabel.text];
     }
-    NSLog(@"%@", self.selectedTags);
+    MenuTableViewController* mtvc = (MenuTableViewController*)(self.navigationController.viewControllers[0]);
+    mtvc.tags = self.selectedTags;
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 @end

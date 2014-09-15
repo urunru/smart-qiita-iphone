@@ -11,8 +11,6 @@
 
 @interface MenuTableViewController ()
 
-@property NSArray *tags;
-@property NSArray *articles;
 @property NSString *sendTag;
 @property NSArray *sendArticles;
 

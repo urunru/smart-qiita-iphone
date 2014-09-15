@@ -10,4 +10,7 @@
 
 @interface MenuTableViewController : UITableViewController
 
+@property NSArray *tags;
+@property NSArray *articles;
+
 @end
