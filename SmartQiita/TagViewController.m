@@ -54,7 +54,9 @@
     static NSString *CellIdentifier = @"cell";
     TagViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    cell.tagLabel.text = self.tags[indexPath.row];
+    NSString *tagName = self.tags[indexPath.row];
+    cell.tagLabel.text = tagName;
+    cell.tagImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@.jpg",tagName]];
 
     return cell;
 }
