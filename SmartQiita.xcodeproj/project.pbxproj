@@ -43,106 +43,6 @@
 		7617FF4419C0538300A3B9BC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7617FF4319C0538300A3B9BC /* DetailViewController.m */; };
 		7628747D19C7E05000B65C5A /* TagTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7628747C19C7E05000B65C5A /* TagTableViewController.m */; };
 		76BB903319C076CB002E95D3 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB903219C076CB002E95D3 /* MenuTableViewController.m */; };
-		76D78BE519C6BA5900BA163D /* adventcalendar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8019C6BA5900BA163D /* adventcalendar.jpg */; };
-		76D78BE619C6BA5900BA163D /* android.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8119C6BA5900BA163D /* android.jpg */; };
-		76D78BE719C6BA5900BA163D /* angularjs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8219C6BA5900BA163D /* angularjs.jpg */; };
-		76D78BE819C6BA5900BA163D /* ansible.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8319C6BA5900BA163D /* ansible.jpg */; };
-		76D78BE919C6BA5900BA163D /* apache.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8419C6BA5900BA163D /* apache.jpg */; };
-		76D78BEA19C6BA5900BA163D /* aws.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8519C6BA5900BA163D /* aws.jpg */; };
-		76D78BEB19C6BA5900BA163D /* backbone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8619C6BA5900BA163D /* backbone.jpg */; };
-		76D78BEC19C6BA5900BA163D /* bash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8719C6BA5900BA163D /* bash.jpg */; };
-		76D78BED19C6BA5900BA163D /* bootstrap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8819C6BA5900BA163D /* bootstrap.jpg */; };
-		76D78BEE19C6BA5900BA163D /* c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8919C6BA5900BA163D /* c.jpg */; };
-		76D78BEF19C6BA5900BA163D /* cakephp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8A19C6BA5900BA163D /* cakephp.jpg */; };
-		76D78BF019C6BA5900BA163D /* capistrano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8B19C6BA5900BA163D /* capistrano.jpg */; };
-		76D78BF119C6BA5900BA163D /* centos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8C19C6BA5900BA163D /* centos.jpg */; };
-		76D78BF219C6BA5900BA163D /* chef.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8D19C6BA5900BA163D /* chef.jpg */; };
-		76D78BF319C6BA5900BA163D /* chrome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8E19C6BA5900BA163D /* chrome.jpg */; };
-		76D78BF419C6BA5900BA163D /* clojure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8F19C6BA5900BA163D /* clojure.jpg */; };
-		76D78BF519C6BA5900BA163D /* cocos2d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B9019C6BA5900BA163D /* cocos2d.jpg */; };
-		76D78BF619C6BA5900BA163D /* coffeescript.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B9119C6BA5900BA163D /* coffeescript.jpg */; };
-		76D78BF719C6BA5900BA163D /* css.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B9219C6BA5900BA163D /* css.jpg */; };
-		76D78BF819C6BA5900BA163D /* css3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B9319C6BA5900BA163D /* css3.jpg */; };
-		76D78BF919C6BA5900BA163D /* debian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B9419C6BA5900BA163D /* debian.jpg */; };
-		76D78BFA19C6BA5900BA163D /* django.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B9519C6BA5900BA163D /* django.jpg */; };
-		76D78BFB19C6BA5900BA163D /* docker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B9619C6BA5900BA163D /* docker.jpg */; };
-		76D78BFC19C6BA5900BA163D /* ec2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B9719C6BA5900BA163D /* ec2.jpg */; };
-		76D78BFD19C6BA5900BA163D /* eclipse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B9819C6BA5900BA163D /* eclipse.jpg */; };
-		76D78BFE19C6BA5900BA163D /* emacs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B9919C6BA5900BA163D /* emacs.jpg */; };
-		76D78BFF19C6BA5900BA163D /* excel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B9A19C6BA5900BA163D /* excel.jpg */; };
-		76D78C0019C6BA5900BA163D /* facebook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B9B19C6BA5900BA163D /* facebook.jpg */; };
-		76D78C0119C6BA5900BA163D /* fluentd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B9C19C6BA5900BA163D /* fluentd.jpg */; };
-		76D78C0219C6BA5900BA163D /* fuelphp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B9D19C6BA5900BA163D /* fuelphp.jpg */; };
-		76D78C0319C6BA5900BA163D /* gem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B9E19C6BA5900BA163D /* gem.jpg */; };
-		76D78C0419C6BA5900BA163D /* git.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B9F19C6BA5900BA163D /* git.jpg */; };
-		76D78C0519C6BA5900BA163D /* github.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BA019C6BA5900BA163D /* github.jpg */; };
-		76D78C0619C6BA5900BA163D /* gitlab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BA119C6BA5900BA163D /* gitlab.jpg */; };
-		76D78C0719C6BA5900BA163D /* go.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BA219C6BA5900BA163D /* go.jpg */; };
-		76D78C0819C6BA5900BA163D /* golang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BA319C6BA5900BA163D /* golang.jpg */; };
-		76D78C0919C6BA5900BA163D /* googleappsscript.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BA419C6BA5900BA163D /* googleappsscript.jpg */; };
-		76D78C0A19C6BA5900BA163D /* groovy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BA519C6BA5900BA163D /* groovy.jpg */; };
-		76D78C0B19C6BA5900BA163D /* grunt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BA619C6BA5900BA163D /* grunt.jpg */; };
-		76D78C0C19C6BA5900BA163D /* haskell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BA719C6BA5900BA163D /* haskell.jpg */; };
-		76D78C0D19C6BA5900BA163D /* heroku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BA819C6BA5900BA163D /* heroku.jpg */; };
-		76D78C0E19C6BA5900BA163D /* homebrew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BA919C6BA5900BA163D /* homebrew.jpg */; };
-		76D78C0F19C6BA5900BA163D /* html.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BAA19C6BA5900BA163D /* html.jpg */; };
-		76D78C1019C6BA5900BA163D /* html5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BAB19C6BA5900BA163D /* html5.jpg */; };
-		76D78C1119C6BA5900BA163D /* ios.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BAC19C6BA5900BA163D /* ios.jpg */; };
-		76D78C1219C6BA5900BA163D /* iphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BAD19C6BA5900BA163D /* iphone.jpg */; };
-		76D78C1319C6BA5900BA163D /* java.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BAE19C6BA5900BA163D /* java.jpg */; };
-		76D78C1419C6BA5900BA163D /* javascript.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BAF19C6BA5900BA163D /* javascript.jpg */; };
-		76D78C1519C6BA5900BA163D /* jenkins.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BB019C6BA5900BA163D /* jenkins.jpg */; };
-		76D78C1619C6BA5900BA163D /* jquery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BB119C6BA5900BA163D /* jquery.jpg */; };
-		76D78C1719C6BA5900BA163D /* laravel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BB219C6BA5900BA163D /* laravel.jpg */; };
-		76D78C1819C6BA5900BA163D /* linux.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BB319C6BA5900BA163D /* linux.jpg */; };
-		76D78C1919C6BA5900BA163D /* mac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BB419C6BA5900BA163D /* mac.jpg */; };
-		76D78C1A19C6BA5900BA163D /* macosx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BB519C6BA5900BA163D /* macosx.jpg */; };
-		76D78C1B19C6BA5900BA163D /* markdown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BB619C6BA5900BA163D /* markdown.jpg */; };
-		76D78C1C19C6BA5900BA163D /* mongodb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BB719C6BA5900BA163D /* mongodb.jpg */; };
-		76D78C1D19C6BA5900BA163D /* mysql.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BB819C6BA5900BA163D /* mysql.jpg */; };
-		76D78C1E19C6BA5900BA163D /* nginx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BB919C6BA5900BA163D /* nginx.jpg */; };
-		76D78C1F19C6BA5900BA163D /* node.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BBA19C6BA5900BA163D /* node.jpg */; };
-		76D78C2019C6BA5900BA163D /* objective-c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BBB19C6BA5900BA163D /* objective-c.jpg */; };
-		76D78C2119C6BA5900BA163D /* osx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BBC19C6BA5900BA163D /* osx.jpg */; };
-		76D78C2219C6BA5900BA163D /* perl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BBD19C6BA5900BA163D /* perl.jpg */; };
-		76D78C2319C6BA5900BA163D /* php.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BBE19C6BA5900BA163D /* php.jpg */; };
-		76D78C2519C6BA5900BA163D /* postgresql.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BC019C6BA5900BA163D /* postgresql.jpg */; };
-		76D78C2619C6BA5900BA163D /* python.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BC119C6BA5900BA163D /* python.jpg */; };
-		76D78C2719C6BA5900BA163D /* qiita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BC219C6BA5900BA163D /* qiita.jpg */; };
-		76D78C2819C6BA5900BA163D /* r.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BC319C6BA5900BA163D /* r.jpg */; };
-		76D78C2919C6BA5900BA163D /* rails.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BC419C6BA5900BA163D /* rails.jpg */; };
-		76D78C2A19C6BA5900BA163D /* rails4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BC519C6BA5900BA163D /* rails4.jpg */; };
-		76D78C2B19C6BA5900BA163D /* rbenv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BC619C6BA5900BA163D /* rbenv.jpg */; };
-		76D78C2C19C6BA5900BA163D /* redmine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BC719C6BA5900BA163D /* redmine.jpg */; };
-		76D78C2D19C6BA5900BA163D /* rspec.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BC819C6BA5900BA163D /* rspec.jpg */; };
-		76D78C2E19C6BA5900BA163D /* ruby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BC919C6BA5900BA163D /* ruby.jpg */; };
-		76D78C2F19C6BA5900BA163D /* sass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BCA19C6BA5900BA163D /* sass.jpg */; };
-		76D78C3019C6BA5900BA163D /* scala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BCB19C6BA5900BA163D /* scala.jpg */; };
-		76D78C3119C6BA5900BA163D /* shell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BCC19C6BA5900BA163D /* shell.jpg */; };
-		76D78C3219C6BA5900BA163D /* shellscript.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BCD19C6BA5900BA163D /* shellscript.jpg */; };
-		76D78C3319C6BA5900BA163D /* sql.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BCE19C6BA5900BA163D /* sql.jpg */; };
-		76D78C3419C6BA5900BA163D /* ssh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BCF19C6BA5900BA163D /* ssh.jpg */; };
-		76D78C3519C6BA5900BA163D /* sublimetext2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BD019C6BA5900BA163D /* sublimetext2.jpg */; };
-		76D78C3619C6BA5900BA163D /* swift.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BD119C6BA5900BA163D /* swift.jpg */; };
-		76D78C3719C6BA5900BA163D /* terminal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BD219C6BA5900BA163D /* terminal.jpg */; };
-		76D78C3819C6BA5900BA163D /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BD319C6BA5900BA163D /* test.jpg */; };
-		76D78C3919C6BA5900BA163D /* titanium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BD419C6BA5900BA163D /* titanium.jpg */; };
-		76D78C3A19C6BA5900BA163D /* tmux.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BD519C6BA5900BA163D /* tmux.jpg */; };
-		76D78C3B19C6BA5900BA163D /* twitter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BD619C6BA5900BA163D /* twitter.jpg */; };
-		76D78C3C19C6BA5900BA163D /* ubuntu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BD719C6BA5900BA163D /* ubuntu.jpg */; };
-		76D78C3D19C6BA5900BA163D /* unity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BD819C6BA5900BA163D /* unity.jpg */; };
-		76D78C3E19C6BA5900BA163D /* unity3d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BD919C6BA5900BA163D /* unity3d.jpg */; };
-		76D78C3F19C6BA5900BA163D /* unix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BDA19C6BA5900BA163D /* unix.jpg */; };
-		76D78C4019C6BA5900BA163D /* vagrant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BDB19C6BA5900BA163D /* vagrant.jpg */; };
-		76D78C4119C6BA5900BA163D /* vim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BDC19C6BA5900BA163D /* vim.jpg */; };
-		76D78C4219C6BA5900BA163D /* virtualbox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BDD19C6BA5900BA163D /* virtualbox.jpg */; };
-		76D78C4319C6BA5900BA163D /* windows.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BDE19C6BA5900BA163D /* windows.jpg */; };
-		76D78C4419C6BA5900BA163D /* wordpress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BDF19C6BA5900BA163D /* wordpress.jpg */; };
-		76D78C4519C6BA5900BA163D /* xamarin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BE019C6BA5900BA163D /* xamarin.jpg */; };
-		76D78C4619C6BA5900BA163D /* xcode.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BE119C6BA5900BA163D /* xcode.jpg */; };
-		76D78C4719C6BA5900BA163D /* yhpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BE219C6BA5900BA163D /* yhpg.jpg */; };
-		76D78C4819C6BA5900BA163D /* zsh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BE319C6BA5900BA163D /* zsh.jpg */; };
-		76D78C4919C6BA5900BA163D /* どう書く.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78BE419C6BA5900BA163D /* どう書く.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -198,8 +98,8 @@
 		7617FF0B19C0475700A3B9BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7617FF0D19C0475700A3B9BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7617FF0F19C0475700A3B9BC /* SmartQiita-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartQiita-Prefix.pch"; sourceTree = "<group>"; };
-		7617FF1019C0475700A3B9BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7617FF1119C0475700A3B9BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7617FF1019C0475700A3B9BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		7617FF1119C0475700A3B9BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		7617FF1419C0475700A3B9BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		7617FF1719C0475700A3B9BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		7617FF1C19C0475700A3B9BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -208,116 +108,16 @@
 		7617FF2B19C0475700A3B9BC /* SmartQiitaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartQiitaTests-Info.plist"; sourceTree = "<group>"; };
 		7617FF2D19C0475700A3B9BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7617FF2F19C0475700A3B9BC /* SmartQiitaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartQiitaTests.m; sourceTree = "<group>"; };
-		7617FF3919C0478D00A3B9BC /* ArticleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleTableViewController.h; path = ../ArticleTableViewController.h; sourceTree = "<group>"; };
-		7617FF3A19C0478D00A3B9BC /* ArticleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleTableViewController.m; path = ../ArticleTableViewController.m; sourceTree = "<group>"; };
-		7617FF3C19C049F500A3B9BC /* ArticleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleTableViewCell.h; path = ../ArticleTableViewCell.h; sourceTree = "<group>"; };
-		7617FF3D19C049F500A3B9BC /* ArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleTableViewCell.m; path = ../ArticleTableViewCell.m; sourceTree = "<group>"; };
-		7617FF4219C0538300A3B9BC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		7617FF4319C0538300A3B9BC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		7628747B19C7E05000B65C5A /* TagTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagTableViewController.h; sourceTree = "<group>"; };
-		7628747C19C7E05000B65C5A /* TagTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagTableViewController.m; sourceTree = "<group>"; };
-		76BB903119C076CB002E95D3 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuTableViewController.h; path = ../MenuTableViewController.h; sourceTree = "<group>"; };
-		76BB903219C076CB002E95D3 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewController.m; path = ../MenuTableViewController.m; sourceTree = "<group>"; };
-		76D78B8019C6BA5900BA163D /* adventcalendar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = adventcalendar.jpg; sourceTree = "<group>"; };
-		76D78B8119C6BA5900BA163D /* android.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = android.jpg; sourceTree = "<group>"; };
-		76D78B8219C6BA5900BA163D /* angularjs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angularjs.jpg; sourceTree = "<group>"; };
-		76D78B8319C6BA5900BA163D /* ansible.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ansible.jpg; sourceTree = "<group>"; };
-		76D78B8419C6BA5900BA163D /* apache.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apache.jpg; sourceTree = "<group>"; };
-		76D78B8519C6BA5900BA163D /* aws.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aws.jpg; sourceTree = "<group>"; };
-		76D78B8619C6BA5900BA163D /* backbone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backbone.jpg; sourceTree = "<group>"; };
-		76D78B8719C6BA5900BA163D /* bash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bash.jpg; sourceTree = "<group>"; };
-		76D78B8819C6BA5900BA163D /* bootstrap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bootstrap.jpg; sourceTree = "<group>"; };
-		76D78B8919C6BA5900BA163D /* c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c.jpg; sourceTree = "<group>"; };
-		76D78B8A19C6BA5900BA163D /* cakephp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cakephp.jpg; sourceTree = "<group>"; };
-		76D78B8B19C6BA5900BA163D /* capistrano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = capistrano.jpg; sourceTree = "<group>"; };
-		76D78B8C19C6BA5900BA163D /* centos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centos.jpg; sourceTree = "<group>"; };
-		76D78B8D19C6BA5900BA163D /* chef.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chef.jpg; sourceTree = "<group>"; };
-		76D78B8E19C6BA5900BA163D /* chrome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chrome.jpg; sourceTree = "<group>"; };
-		76D78B8F19C6BA5900BA163D /* clojure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clojure.jpg; sourceTree = "<group>"; };
-		76D78B9019C6BA5900BA163D /* cocos2d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cocos2d.jpg; sourceTree = "<group>"; };
-		76D78B9119C6BA5900BA163D /* coffeescript.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffeescript.jpg; sourceTree = "<group>"; };
-		76D78B9219C6BA5900BA163D /* css.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = css.jpg; sourceTree = "<group>"; };
-		76D78B9319C6BA5900BA163D /* css3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = css3.jpg; sourceTree = "<group>"; };
-		76D78B9419C6BA5900BA163D /* debian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = debian.jpg; sourceTree = "<group>"; };
-		76D78B9519C6BA5900BA163D /* django.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = django.jpg; sourceTree = "<group>"; };
-		76D78B9619C6BA5900BA163D /* docker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = docker.jpg; sourceTree = "<group>"; };
-		76D78B9719C6BA5900BA163D /* ec2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ec2.jpg; sourceTree = "<group>"; };
-		76D78B9819C6BA5900BA163D /* eclipse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eclipse.jpg; sourceTree = "<group>"; };
-		76D78B9919C6BA5900BA163D /* emacs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emacs.jpg; sourceTree = "<group>"; };
-		76D78B9A19C6BA5900BA163D /* excel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = excel.jpg; sourceTree = "<group>"; };
-		76D78B9B19C6BA5900BA163D /* facebook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = facebook.jpg; sourceTree = "<group>"; };
-		76D78B9C19C6BA5900BA163D /* fluentd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fluentd.jpg; sourceTree = "<group>"; };
-		76D78B9D19C6BA5900BA163D /* fuelphp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fuelphp.jpg; sourceTree = "<group>"; };
-		76D78B9E19C6BA5900BA163D /* gem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gem.jpg; sourceTree = "<group>"; };
-		76D78B9F19C6BA5900BA163D /* git.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = git.jpg; sourceTree = "<group>"; };
-		76D78BA019C6BA5900BA163D /* github.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = github.jpg; sourceTree = "<group>"; };
-		76D78BA119C6BA5900BA163D /* gitlab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gitlab.jpg; sourceTree = "<group>"; };
-		76D78BA219C6BA5900BA163D /* go.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = go.jpg; sourceTree = "<group>"; };
-		76D78BA319C6BA5900BA163D /* golang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = golang.jpg; sourceTree = "<group>"; };
-		76D78BA419C6BA5900BA163D /* googleappsscript.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = googleappsscript.jpg; sourceTree = "<group>"; };
-		76D78BA519C6BA5900BA163D /* groovy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = groovy.jpg; sourceTree = "<group>"; };
-		76D78BA619C6BA5900BA163D /* grunt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grunt.jpg; sourceTree = "<group>"; };
-		76D78BA719C6BA5900BA163D /* haskell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haskell.jpg; sourceTree = "<group>"; };
-		76D78BA819C6BA5900BA163D /* heroku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heroku.jpg; sourceTree = "<group>"; };
-		76D78BA919C6BA5900BA163D /* homebrew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homebrew.jpg; sourceTree = "<group>"; };
-		76D78BAA19C6BA5900BA163D /* html.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = html.jpg; sourceTree = "<group>"; };
-		76D78BAB19C6BA5900BA163D /* html5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = html5.jpg; sourceTree = "<group>"; };
-		76D78BAC19C6BA5900BA163D /* ios.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ios.jpg; sourceTree = "<group>"; };
-		76D78BAD19C6BA5900BA163D /* iphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone.jpg; sourceTree = "<group>"; };
-		76D78BAE19C6BA5900BA163D /* java.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = java.jpg; sourceTree = "<group>"; };
-		76D78BAF19C6BA5900BA163D /* javascript.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = javascript.jpg; sourceTree = "<group>"; };
-		76D78BB019C6BA5900BA163D /* jenkins.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jenkins.jpg; sourceTree = "<group>"; };
-		76D78BB119C6BA5900BA163D /* jquery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jquery.jpg; sourceTree = "<group>"; };
-		76D78BB219C6BA5900BA163D /* laravel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laravel.jpg; sourceTree = "<group>"; };
-		76D78BB319C6BA5900BA163D /* linux.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = linux.jpg; sourceTree = "<group>"; };
-		76D78BB419C6BA5900BA163D /* mac.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mac.jpg; sourceTree = "<group>"; };
-		76D78BB519C6BA5900BA163D /* macosx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macosx.jpg; sourceTree = "<group>"; };
-		76D78BB619C6BA5900BA163D /* markdown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = markdown.jpg; sourceTree = "<group>"; };
-		76D78BB719C6BA5900BA163D /* mongodb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mongodb.jpg; sourceTree = "<group>"; };
-		76D78BB819C6BA5900BA163D /* mysql.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mysql.jpg; sourceTree = "<group>"; };
-		76D78BB919C6BA5900BA163D /* nginx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nginx.jpg; sourceTree = "<group>"; };
-		76D78BBA19C6BA5900BA163D /* node.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = node.jpg; sourceTree = "<group>"; };
-		76D78BBB19C6BA5900BA163D /* objective-c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "objective-c.jpg"; sourceTree = "<group>"; };
-		76D78BBC19C6BA5900BA163D /* osx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = osx.jpg; sourceTree = "<group>"; };
-		76D78BBD19C6BA5900BA163D /* perl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = perl.jpg; sourceTree = "<group>"; };
-		76D78BBE19C6BA5900BA163D /* php.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = php.jpg; sourceTree = "<group>"; };
-		76D78BC019C6BA5900BA163D /* postgresql.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = postgresql.jpg; sourceTree = "<group>"; };
-		76D78BC119C6BA5900BA163D /* python.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = python.jpg; sourceTree = "<group>"; };
-		76D78BC219C6BA5900BA163D /* qiita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qiita.jpg; sourceTree = "<group>"; };
-		76D78BC319C6BA5900BA163D /* r.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = r.jpg; sourceTree = "<group>"; };
-		76D78BC419C6BA5900BA163D /* rails.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rails.jpg; sourceTree = "<group>"; };
-		76D78BC519C6BA5900BA163D /* rails4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rails4.jpg; sourceTree = "<group>"; };
-		76D78BC619C6BA5900BA163D /* rbenv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rbenv.jpg; sourceTree = "<group>"; };
-		76D78BC719C6BA5900BA163D /* redmine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redmine.jpg; sourceTree = "<group>"; };
-		76D78BC819C6BA5900BA163D /* rspec.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rspec.jpg; sourceTree = "<group>"; };
-		76D78BC919C6BA5900BA163D /* ruby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ruby.jpg; sourceTree = "<group>"; };
-		76D78BCA19C6BA5900BA163D /* sass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sass.jpg; sourceTree = "<group>"; };
-		76D78BCB19C6BA5900BA163D /* scala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scala.jpg; sourceTree = "<group>"; };
-		76D78BCC19C6BA5900BA163D /* shell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shell.jpg; sourceTree = "<group>"; };
-		76D78BCD19C6BA5900BA163D /* shellscript.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shellscript.jpg; sourceTree = "<group>"; };
-		76D78BCE19C6BA5900BA163D /* sql.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sql.jpg; sourceTree = "<group>"; };
-		76D78BCF19C6BA5900BA163D /* ssh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ssh.jpg; sourceTree = "<group>"; };
-		76D78BD019C6BA5900BA163D /* sublimetext2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sublimetext2.jpg; sourceTree = "<group>"; };
-		76D78BD119C6BA5900BA163D /* swift.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = swift.jpg; sourceTree = "<group>"; };
-		76D78BD219C6BA5900BA163D /* terminal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = terminal.jpg; sourceTree = "<group>"; };
-		76D78BD319C6BA5900BA163D /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
-		76D78BD419C6BA5900BA163D /* titanium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = titanium.jpg; sourceTree = "<group>"; };
-		76D78BD519C6BA5900BA163D /* tmux.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tmux.jpg; sourceTree = "<group>"; };
-		76D78BD619C6BA5900BA163D /* twitter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twitter.jpg; sourceTree = "<group>"; };
-		76D78BD719C6BA5900BA163D /* ubuntu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ubuntu.jpg; sourceTree = "<group>"; };
-		76D78BD819C6BA5900BA163D /* unity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unity.jpg; sourceTree = "<group>"; };
-		76D78BD919C6BA5900BA163D /* unity3d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unity3d.jpg; sourceTree = "<group>"; };
-		76D78BDA19C6BA5900BA163D /* unix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unix.jpg; sourceTree = "<group>"; };
-		76D78BDB19C6BA5900BA163D /* vagrant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vagrant.jpg; sourceTree = "<group>"; };
-		76D78BDC19C6BA5900BA163D /* vim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vim.jpg; sourceTree = "<group>"; };
-		76D78BDD19C6BA5900BA163D /* virtualbox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = virtualbox.jpg; sourceTree = "<group>"; };
-		76D78BDE19C6BA5900BA163D /* windows.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = windows.jpg; sourceTree = "<group>"; };
-		76D78BDF19C6BA5900BA163D /* wordpress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wordpress.jpg; sourceTree = "<group>"; };
-		76D78BE019C6BA5900BA163D /* xamarin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xamarin.jpg; sourceTree = "<group>"; };
-		76D78BE119C6BA5900BA163D /* xcode.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xcode.jpg; sourceTree = "<group>"; };
-		76D78BE219C6BA5900BA163D /* yhpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yhpg.jpg; sourceTree = "<group>"; };
-		76D78BE319C6BA5900BA163D /* zsh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zsh.jpg; sourceTree = "<group>"; };
-		76D78BE419C6BA5900BA163D /* どう書く.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "どう書く.jpg"; sourceTree = "<group>"; };
+		7617FF3919C0478D00A3B9BC /* ArticleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleTableViewController.h; path = ../../ArticleTableViewController.h; sourceTree = "<group>"; };
+		7617FF3A19C0478D00A3B9BC /* ArticleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleTableViewController.m; path = ../../ArticleTableViewController.m; sourceTree = "<group>"; };
+		7617FF3C19C049F500A3B9BC /* ArticleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleTableViewCell.h; path = ../../ArticleTableViewCell.h; sourceTree = "<group>"; };
+		7617FF3D19C049F500A3B9BC /* ArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleTableViewCell.m; path = ../../ArticleTableViewCell.m; sourceTree = "<group>"; };
+		7617FF4219C0538300A3B9BC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		7617FF4319C0538300A3B9BC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		7628747B19C7E05000B65C5A /* TagTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TagTableViewController.h; path = ../TagTableViewController.h; sourceTree = "<group>"; };
+		7628747C19C7E05000B65C5A /* TagTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TagTableViewController.m; path = ../TagTableViewController.m; sourceTree = "<group>"; };
+		76BB903119C076CB002E95D3 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuTableViewController.h; path = ../../MenuTableViewController.h; sourceTree = "<group>"; };
+		76BB903219C076CB002E95D3 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewController.m; path = ../../MenuTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -395,7 +195,6 @@
 		7606B6D019C5744D00C9A3A8 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				76D78B7F19C6BA4A00BA163D /* tags */,
 				7606B6D119C5745F00C9A3A8 /* placeholder.png */,
 			);
 			path = Image;
@@ -434,18 +233,9 @@
 		7617FF0719C0475700A3B9BC /* SmartQiita */ = {
 			isa = PBXGroup;
 			children = (
-				76BB903119C076CB002E95D3 /* MenuTableViewController.h */,
-				76BB903219C076CB002E95D3 /* MenuTableViewController.m */,
-				7628747B19C7E05000B65C5A /* TagTableViewController.h */,
-				7628747C19C7E05000B65C5A /* TagTableViewController.m */,
-				7617FF3C19C049F500A3B9BC /* ArticleTableViewCell.h */,
-				7617FF3D19C049F500A3B9BC /* ArticleTableViewCell.m */,
-				7617FF3919C0478D00A3B9BC /* ArticleTableViewController.h */,
-				7617FF3A19C0478D00A3B9BC /* ArticleTableViewController.m */,
-				7617FF4219C0538300A3B9BC /* DetailViewController.h */,
-				7617FF4319C0538300A3B9BC /* DetailViewController.m */,
-				7617FF1019C0475700A3B9BC /* AppDelegate.h */,
-				7617FF1119C0475700A3B9BC /* AppDelegate.m */,
+				7628748019C7F7CD00B65C5A /* ViewController */,
+				7628747E19C7F7CD00B65C5A /* CustomCell */,
+				7628747F19C7F7CD00B65C5A /* Delegate */,
 				7617FF1319C0475700A3B9BC /* Main_iPhone.storyboard */,
 				7617FF1619C0475700A3B9BC /* Main_iPad.storyboard */,
 				7617FF1C19C0475700A3B9BC /* Images.xcassets */,
@@ -485,111 +275,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		76D78B7F19C6BA4A00BA163D /* tags */ = {
+		7628747E19C7F7CD00B65C5A /* CustomCell */ = {
 			isa = PBXGroup;
 			children = (
-				76D78B8019C6BA5900BA163D /* adventcalendar.jpg */,
-				76D78B8119C6BA5900BA163D /* android.jpg */,
-				76D78B8219C6BA5900BA163D /* angularjs.jpg */,
-				76D78B8319C6BA5900BA163D /* ansible.jpg */,
-				76D78B8419C6BA5900BA163D /* apache.jpg */,
-				76D78B8519C6BA5900BA163D /* aws.jpg */,
-				76D78B8619C6BA5900BA163D /* backbone.jpg */,
-				76D78B8719C6BA5900BA163D /* bash.jpg */,
-				76D78B8819C6BA5900BA163D /* bootstrap.jpg */,
-				76D78B8919C6BA5900BA163D /* c.jpg */,
-				76D78B8A19C6BA5900BA163D /* cakephp.jpg */,
-				76D78B8B19C6BA5900BA163D /* capistrano.jpg */,
-				76D78B8C19C6BA5900BA163D /* centos.jpg */,
-				76D78B8D19C6BA5900BA163D /* chef.jpg */,
-				76D78B8E19C6BA5900BA163D /* chrome.jpg */,
-				76D78B8F19C6BA5900BA163D /* clojure.jpg */,
-				76D78B9019C6BA5900BA163D /* cocos2d.jpg */,
-				76D78B9119C6BA5900BA163D /* coffeescript.jpg */,
-				76D78B9219C6BA5900BA163D /* css.jpg */,
-				76D78B9319C6BA5900BA163D /* css3.jpg */,
-				76D78B9419C6BA5900BA163D /* debian.jpg */,
-				76D78B9519C6BA5900BA163D /* django.jpg */,
-				76D78B9619C6BA5900BA163D /* docker.jpg */,
-				76D78B9719C6BA5900BA163D /* ec2.jpg */,
-				76D78B9819C6BA5900BA163D /* eclipse.jpg */,
-				76D78B9919C6BA5900BA163D /* emacs.jpg */,
-				76D78B9A19C6BA5900BA163D /* excel.jpg */,
-				76D78B9B19C6BA5900BA163D /* facebook.jpg */,
-				76D78B9C19C6BA5900BA163D /* fluentd.jpg */,
-				76D78B9D19C6BA5900BA163D /* fuelphp.jpg */,
-				76D78B9E19C6BA5900BA163D /* gem.jpg */,
-				76D78B9F19C6BA5900BA163D /* git.jpg */,
-				76D78BA019C6BA5900BA163D /* github.jpg */,
-				76D78BA119C6BA5900BA163D /* gitlab.jpg */,
-				76D78BA219C6BA5900BA163D /* go.jpg */,
-				76D78BA319C6BA5900BA163D /* golang.jpg */,
-				76D78BA419C6BA5900BA163D /* googleappsscript.jpg */,
-				76D78BA519C6BA5900BA163D /* groovy.jpg */,
-				76D78BA619C6BA5900BA163D /* grunt.jpg */,
-				76D78BA719C6BA5900BA163D /* haskell.jpg */,
-				76D78BA819C6BA5900BA163D /* heroku.jpg */,
-				76D78BA919C6BA5900BA163D /* homebrew.jpg */,
-				76D78BAA19C6BA5900BA163D /* html.jpg */,
-				76D78BAB19C6BA5900BA163D /* html5.jpg */,
-				76D78BAC19C6BA5900BA163D /* ios.jpg */,
-				76D78BAD19C6BA5900BA163D /* iphone.jpg */,
-				76D78BAE19C6BA5900BA163D /* java.jpg */,
-				76D78BAF19C6BA5900BA163D /* javascript.jpg */,
-				76D78BB019C6BA5900BA163D /* jenkins.jpg */,
-				76D78BB119C6BA5900BA163D /* jquery.jpg */,
-				76D78BB219C6BA5900BA163D /* laravel.jpg */,
-				76D78BB319C6BA5900BA163D /* linux.jpg */,
-				76D78BB419C6BA5900BA163D /* mac.jpg */,
-				76D78BB519C6BA5900BA163D /* macosx.jpg */,
-				76D78BB619C6BA5900BA163D /* markdown.jpg */,
-				76D78BB719C6BA5900BA163D /* mongodb.jpg */,
-				76D78BB819C6BA5900BA163D /* mysql.jpg */,
-				76D78BB919C6BA5900BA163D /* nginx.jpg */,
-				76D78BBA19C6BA5900BA163D /* node.jpg */,
-				76D78BBB19C6BA5900BA163D /* objective-c.jpg */,
-				76D78BBC19C6BA5900BA163D /* osx.jpg */,
-				76D78BBD19C6BA5900BA163D /* perl.jpg */,
-				76D78BBE19C6BA5900BA163D /* php.jpg */,
-				76D78BC019C6BA5900BA163D /* postgresql.jpg */,
-				76D78BC119C6BA5900BA163D /* python.jpg */,
-				76D78BC219C6BA5900BA163D /* qiita.jpg */,
-				76D78BC319C6BA5900BA163D /* r.jpg */,
-				76D78BC419C6BA5900BA163D /* rails.jpg */,
-				76D78BC519C6BA5900BA163D /* rails4.jpg */,
-				76D78BC619C6BA5900BA163D /* rbenv.jpg */,
-				76D78BC719C6BA5900BA163D /* redmine.jpg */,
-				76D78BC819C6BA5900BA163D /* rspec.jpg */,
-				76D78BC919C6BA5900BA163D /* ruby.jpg */,
-				76D78BCA19C6BA5900BA163D /* sass.jpg */,
-				76D78BCB19C6BA5900BA163D /* scala.jpg */,
-				76D78BCC19C6BA5900BA163D /* shell.jpg */,
-				76D78BCD19C6BA5900BA163D /* shellscript.jpg */,
-				76D78BCE19C6BA5900BA163D /* sql.jpg */,
-				76D78BCF19C6BA5900BA163D /* ssh.jpg */,
-				76D78BD019C6BA5900BA163D /* sublimetext2.jpg */,
-				76D78BD119C6BA5900BA163D /* swift.jpg */,
-				76D78BD219C6BA5900BA163D /* terminal.jpg */,
-				76D78BD319C6BA5900BA163D /* test.jpg */,
-				76D78BD419C6BA5900BA163D /* titanium.jpg */,
-				76D78BD519C6BA5900BA163D /* tmux.jpg */,
-				76D78BD619C6BA5900BA163D /* twitter.jpg */,
-				76D78BD719C6BA5900BA163D /* ubuntu.jpg */,
-				76D78BD819C6BA5900BA163D /* unity.jpg */,
-				76D78BD919C6BA5900BA163D /* unity3d.jpg */,
-				76D78BDA19C6BA5900BA163D /* unix.jpg */,
-				76D78BDB19C6BA5900BA163D /* vagrant.jpg */,
-				76D78BDC19C6BA5900BA163D /* vim.jpg */,
-				76D78BDD19C6BA5900BA163D /* virtualbox.jpg */,
-				76D78BDE19C6BA5900BA163D /* windows.jpg */,
-				76D78BDF19C6BA5900BA163D /* wordpress.jpg */,
-				76D78BE019C6BA5900BA163D /* xamarin.jpg */,
-				76D78BE119C6BA5900BA163D /* xcode.jpg */,
-				76D78BE219C6BA5900BA163D /* yhpg.jpg */,
-				76D78BE319C6BA5900BA163D /* zsh.jpg */,
-				76D78BE419C6BA5900BA163D /* どう書く.jpg */,
+				7617FF3C19C049F500A3B9BC /* ArticleTableViewCell.h */,
+				7617FF3D19C049F500A3B9BC /* ArticleTableViewCell.m */,
 			);
-			path = tags;
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		7628747F19C7F7CD00B65C5A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7617FF1019C0475700A3B9BC /* AppDelegate.h */,
+				7617FF1119C0475700A3B9BC /* AppDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		7628748019C7F7CD00B65C5A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76BB903119C076CB002E95D3 /* MenuTableViewController.h */,
+				76BB903219C076CB002E95D3 /* MenuTableViewController.m */,
+				7628747B19C7E05000B65C5A /* TagTableViewController.h */,
+				7628747C19C7E05000B65C5A /* TagTableViewController.m */,
+				7617FF3919C0478D00A3B9BC /* ArticleTableViewController.h */,
+				7617FF3A19C0478D00A3B9BC /* ArticleTableViewController.m */,
+				7617FF4219C0538300A3B9BC /* DetailViewController.h */,
+				7617FF4319C0538300A3B9BC /* DetailViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -668,111 +384,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76D78C2A19C6BA5900BA163D /* rails4.jpg in Resources */,
-				76D78C2F19C6BA5900BA163D /* sass.jpg in Resources */,
 				7617FF1819C0475700A3B9BC /* Main_iPad.storyboard in Resources */,
-				76D78BF519C6BA5900BA163D /* cocos2d.jpg in Resources */,
-				76D78C2D19C6BA5900BA163D /* rspec.jpg in Resources */,
-				76D78C1D19C6BA5900BA163D /* mysql.jpg in Resources */,
-				76D78C0519C6BA5900BA163D /* github.jpg in Resources */,
-				76D78C2C19C6BA5900BA163D /* redmine.jpg in Resources */,
-				76D78C0119C6BA5900BA163D /* fluentd.jpg in Resources */,
-				76D78BFE19C6BA5900BA163D /* emacs.jpg in Resources */,
-				76D78C2E19C6BA5900BA163D /* ruby.jpg in Resources */,
-				76D78C0019C6BA5900BA163D /* facebook.jpg in Resources */,
-				76D78BEA19C6BA5900BA163D /* aws.jpg in Resources */,
-				76D78BED19C6BA5900BA163D /* bootstrap.jpg in Resources */,
-				76D78C1E19C6BA5900BA163D /* nginx.jpg in Resources */,
-				76D78C4719C6BA5900BA163D /* yhpg.jpg in Resources */,
-				76D78C2319C6BA5900BA163D /* php.jpg in Resources */,
-				76D78C0B19C6BA5900BA163D /* grunt.jpg in Resources */,
-				76D78BF119C6BA5900BA163D /* centos.jpg in Resources */,
-				76D78C1C19C6BA5900BA163D /* mongodb.jpg in Resources */,
 				7617FF1D19C0475700A3B9BC /* Images.xcassets in Resources */,
-				76D78C4219C6BA5900BA163D /* virtualbox.jpg in Resources */,
-				76D78C0A19C6BA5900BA163D /* groovy.jpg in Resources */,
-				76D78C4819C6BA5900BA163D /* zsh.jpg in Resources */,
-				76D78C3419C6BA5900BA163D /* ssh.jpg in Resources */,
-				76D78C1519C6BA5900BA163D /* jenkins.jpg in Resources */,
-				76D78BF619C6BA5900BA163D /* coffeescript.jpg in Resources */,
 				7617FF1519C0475700A3B9BC /* Main_iPhone.storyboard in Resources */,
-				76D78C1419C6BA5900BA163D /* javascript.jpg in Resources */,
-				76D78C0819C6BA5900BA163D /* golang.jpg in Resources */,
-				76D78C0919C6BA5900BA163D /* googleappsscript.jpg in Resources */,
-				76D78C2219C6BA5900BA163D /* perl.jpg in Resources */,
-				76D78BFF19C6BA5900BA163D /* excel.jpg in Resources */,
-				76D78C3E19C6BA5900BA163D /* unity3d.jpg in Resources */,
-				76D78C3619C6BA5900BA163D /* swift.jpg in Resources */,
-				76D78C3319C6BA5900BA163D /* sql.jpg in Resources */,
-				76D78BE719C6BA5900BA163D /* angularjs.jpg in Resources */,
-				76D78BF219C6BA5900BA163D /* chef.jpg in Resources */,
-				76D78C4119C6BA5900BA163D /* vim.jpg in Resources */,
-				76D78BF019C6BA5900BA163D /* capistrano.jpg in Resources */,
-				76D78C0C19C6BA5900BA163D /* haskell.jpg in Resources */,
-				76D78C1819C6BA5900BA163D /* linux.jpg in Resources */,
-				76D78C4319C6BA5900BA163D /* windows.jpg in Resources */,
-				76D78BF819C6BA5900BA163D /* css3.jpg in Resources */,
-				76D78C0419C6BA5900BA163D /* git.jpg in Resources */,
-				76D78C1F19C6BA5900BA163D /* node.jpg in Resources */,
-				76D78BF919C6BA5900BA163D /* debian.jpg in Resources */,
-				76D78BFD19C6BA5900BA163D /* eclipse.jpg in Resources */,
-				76D78C1A19C6BA5900BA163D /* macosx.jpg in Resources */,
-				76D78BEF19C6BA5900BA163D /* cakephp.jpg in Resources */,
-				76D78C0219C6BA5900BA163D /* fuelphp.jpg in Resources */,
-				76D78C2019C6BA5900BA163D /* objective-c.jpg in Resources */,
-				76D78C1219C6BA5900BA163D /* iphone.jpg in Resources */,
-				76D78C1919C6BA5900BA163D /* mac.jpg in Resources */,
-				76D78C3119C6BA5900BA163D /* shell.jpg in Resources */,
-				76D78C3C19C6BA5900BA163D /* ubuntu.jpg in Resources */,
-				76D78C3519C6BA5900BA163D /* sublimetext2.jpg in Resources */,
-				76D78C3019C6BA5900BA163D /* scala.jpg in Resources */,
-				76D78C1019C6BA5900BA163D /* html5.jpg in Resources */,
-				76D78C0E19C6BA5900BA163D /* homebrew.jpg in Resources */,
-				76D78C1119C6BA5900BA163D /* ios.jpg in Resources */,
-				76D78C2B19C6BA5900BA163D /* rbenv.jpg in Resources */,
-				76D78C0F19C6BA5900BA163D /* html.jpg in Resources */,
-				76D78C2119C6BA5900BA163D /* osx.jpg in Resources */,
-				76D78C3819C6BA5900BA163D /* test.jpg in Resources */,
-				76D78BE619C6BA5900BA163D /* android.jpg in Resources */,
-				76D78C4019C6BA5900BA163D /* vagrant.jpg in Resources */,
-				76D78BE519C6BA5900BA163D /* adventcalendar.jpg in Resources */,
-				76D78C2719C6BA5900BA163D /* qiita.jpg in Resources */,
-				76D78BE819C6BA5900BA163D /* ansible.jpg in Resources */,
-				76D78BFB19C6BA5900BA163D /* docker.jpg in Resources */,
-				76D78C4919C6BA5900BA163D /* どう書く.jpg in Resources */,
-				76D78C3719C6BA5900BA163D /* terminal.jpg in Resources */,
-				76D78C4419C6BA5900BA163D /* wordpress.jpg in Resources */,
-				76D78C4519C6BA5900BA163D /* xamarin.jpg in Resources */,
-				76D78C0D19C6BA5900BA163D /* heroku.jpg in Resources */,
-				76D78BF719C6BA5900BA163D /* css.jpg in Resources */,
-				76D78C3A19C6BA5900BA163D /* tmux.jpg in Resources */,
-				76D78C0619C6BA5900BA163D /* gitlab.jpg in Resources */,
-				76D78C2519C6BA5900BA163D /* postgresql.jpg in Resources */,
-				76D78C3D19C6BA5900BA163D /* unity.jpg in Resources */,
-				76D78C3219C6BA5900BA163D /* shellscript.jpg in Resources */,
-				76D78C4619C6BA5900BA163D /* xcode.jpg in Resources */,
-				76D78BEE19C6BA5900BA163D /* c.jpg in Resources */,
-				76D78BEB19C6BA5900BA163D /* backbone.jpg in Resources */,
-				76D78C0319C6BA5900BA163D /* gem.jpg in Resources */,
-				76D78C1619C6BA5900BA163D /* jquery.jpg in Resources */,
-				76D78BFC19C6BA5900BA163D /* ec2.jpg in Resources */,
-				76D78BF419C6BA5900BA163D /* clojure.jpg in Resources */,
-				76D78C3B19C6BA5900BA163D /* twitter.jpg in Resources */,
-				76D78BFA19C6BA5900BA163D /* django.jpg in Resources */,
-				76D78C1319C6BA5900BA163D /* java.jpg in Resources */,
-				76D78C1719C6BA5900BA163D /* laravel.jpg in Resources */,
-				76D78BEC19C6BA5900BA163D /* bash.jpg in Resources */,
-				76D78C1B19C6BA5900BA163D /* markdown.jpg in Resources */,
-				76D78C0719C6BA5900BA163D /* go.jpg in Resources */,
-				76D78C2619C6BA5900BA163D /* python.jpg in Resources */,
 				7606B6D219C5745F00C9A3A8 /* placeholder.png in Resources */,
-				76D78C2919C6BA5900BA163D /* rails.jpg in Resources */,
 				7617FF0C19C0475700A3B9BC /* InfoPlist.strings in Resources */,
-				76D78C3F19C6BA5900BA163D /* unix.jpg in Resources */,
-				76D78BE919C6BA5900BA163D /* apache.jpg in Resources */,
-				76D78C2819C6BA5900BA163D /* r.jpg in Resources */,
-				76D78C3919C6BA5900BA163D /* titanium.jpg in Resources */,
-				76D78BF319C6BA5900BA163D /* chrome.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
