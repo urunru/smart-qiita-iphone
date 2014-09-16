@@ -43,8 +43,6 @@
 		7617FF4419C0538300A3B9BC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7617FF4319C0538300A3B9BC /* DetailViewController.m */; };
 		7628747D19C7E05000B65C5A /* TagTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7628747C19C7E05000B65C5A /* TagTableViewController.m */; };
 		76BB903319C076CB002E95D3 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB903219C076CB002E95D3 /* MenuTableViewController.m */; };
-		76BB903919C085EC002E95D3 /* TagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB903819C085EC002E95D3 /* TagViewController.m */; };
-		76BB903C19C0870D002E95D3 /* TagViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB903B19C0870D002E95D3 /* TagViewCell.m */; };
 		76D78BE519C6BA5900BA163D /* adventcalendar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8019C6BA5900BA163D /* adventcalendar.jpg */; };
 		76D78BE619C6BA5900BA163D /* android.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8119C6BA5900BA163D /* android.jpg */; };
 		76D78BE719C6BA5900BA163D /* angularjs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D78B8219C6BA5900BA163D /* angularjs.jpg */; };
@@ -220,10 +218,6 @@
 		7628747C19C7E05000B65C5A /* TagTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagTableViewController.m; sourceTree = "<group>"; };
 		76BB903119C076CB002E95D3 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuTableViewController.h; path = ../MenuTableViewController.h; sourceTree = "<group>"; };
 		76BB903219C076CB002E95D3 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewController.m; path = ../MenuTableViewController.m; sourceTree = "<group>"; };
-		76BB903719C085EC002E95D3 /* TagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagViewController.h; sourceTree = "<group>"; };
-		76BB903819C085EC002E95D3 /* TagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagViewController.m; sourceTree = "<group>"; };
-		76BB903A19C0870D002E95D3 /* TagViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagViewCell.h; sourceTree = "<group>"; };
-		76BB903B19C0870D002E95D3 /* TagViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagViewCell.m; sourceTree = "<group>"; };
 		76D78B8019C6BA5900BA163D /* adventcalendar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = adventcalendar.jpg; sourceTree = "<group>"; };
 		76D78B8119C6BA5900BA163D /* android.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = android.jpg; sourceTree = "<group>"; };
 		76D78B8219C6BA5900BA163D /* angularjs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angularjs.jpg; sourceTree = "<group>"; };
@@ -442,10 +436,8 @@
 			children = (
 				76BB903119C076CB002E95D3 /* MenuTableViewController.h */,
 				76BB903219C076CB002E95D3 /* MenuTableViewController.m */,
-				76BB903719C085EC002E95D3 /* TagViewController.h */,
-				76BB903819C085EC002E95D3 /* TagViewController.m */,
-				76BB903A19C0870D002E95D3 /* TagViewCell.h */,
-				76BB903B19C0870D002E95D3 /* TagViewCell.m */,
+				7628747B19C7E05000B65C5A /* TagTableViewController.h */,
+				7628747C19C7E05000B65C5A /* TagTableViewController.m */,
 				7617FF3C19C049F500A3B9BC /* ArticleTableViewCell.h */,
 				7617FF3D19C049F500A3B9BC /* ArticleTableViewCell.m */,
 				7617FF3919C0478D00A3B9BC /* ArticleTableViewController.h */,
@@ -460,8 +452,6 @@
 				7606B6D019C5744D00C9A3A8 /* Image */,
 				7606B66819C5727F00C9A3A8 /* Library */,
 				7617FF0819C0475700A3B9BC /* Supporting Files */,
-				7628747B19C7E05000B65C5A /* TagTableViewController.h */,
-				7628747C19C7E05000B65C5A /* TagTableViewController.m */,
 			);
 			path = SmartQiita;
 			sourceTree = "<group>";
@@ -821,8 +811,6 @@
 				7606B6C919C572A500C9A3A8 /* UIButton+WebCache.m in Sources */,
 				7606B6C219C572A500C9A3A8 /* SDImageCache.m in Sources */,
 				7617FF0E19C0475700A3B9BC /* main.m in Sources */,
-				76BB903919C085EC002E95D3 /* TagViewController.m in Sources */,
-				76BB903C19C0870D002E95D3 /* TagViewCell.m in Sources */,
 				7606B6CA19C572A500C9A3A8 /* UIImage+GIF.m in Sources */,
 				7606B6C119C572A500C9A3A8 /* NSData+ImageContentType.m in Sources */,
 				7606B6CC19C572A500C9A3A8 /* UIImage+WebP.m in Sources */,
