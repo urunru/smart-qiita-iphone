@@ -11,7 +11,6 @@
 @interface TagTableViewController ()
 
 @property NSArray *tags;
-@property NSArray *selectedIndexPaths;
 @property NSArray *selectedTags;
 
 @end
@@ -77,9 +76,6 @@
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
 
     cell.accessoryType = UITableViewCellAccessoryCheckmark;
-    
-    // 選択されたインデックスパスを保存
-    self.selectedIndexPaths = [tableView indexPathsForSelectedRows];
 }
 
 - (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -132,7 +128,7 @@
 -(void) viewWillDisappear:(BOOL)animated {
     self.selectedTags = [[NSArray alloc] init];
     if ([self.navigationController.viewControllers indexOfObject:self]==NSNotFound) {
-        for (NSIndexPath *path in self.selectedIndexPaths) {
+        for (NSIndexPath *path in [self.tableView indexPathsForSelectedRows]) {
             UITableViewCell *cell = (UITableViewCell *)[self.tableView cellForRowAtIndexPath:path];
             self.selectedTags = [self.selectedTags arrayByAddingObject:cell.textLabel.text];
         }
