@@ -11,7 +11,6 @@
 @interface TagTableViewController ()
 
 @property NSArray *tags;
-@property NSArray *selectedTags;
 
 @end
 
@@ -126,13 +125,15 @@
 #pragma mark - Navigation
 
 -(void) viewWillDisappear:(BOOL)animated {
-    self.selectedTags = [[NSArray alloc] init];
+    NSArray *selectedTags = [[NSArray alloc] init];
     if ([self.navigationController.viewControllers indexOfObject:self]==NSNotFound) {
         for (NSIndexPath *path in [self.tableView indexPathsForSelectedRows]) {
             UITableViewCell *cell = (UITableViewCell *)[self.tableView cellForRowAtIndexPath:path];
-            self.selectedTags = [self.selectedTags arrayByAddingObject:cell.textLabel.text];
+            selectedTags = [selectedTags arrayByAddingObject: cell.textLabel.text];
         }
-        NSLog(@"%@", self.selectedTags);
+        NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+        [ud setObject:selectedTags forKey:@"SELECTED_TAGS"];
+        [ud synchronize];
     }
     [super viewWillDisappear:animated];
 }

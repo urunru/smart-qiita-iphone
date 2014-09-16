@@ -19,7 +19,7 @@
 
     NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
     [ud setObject:all_tags forKey:@"ALL_TAGS"];
-    [ud setObject:default_tags forKey:@"DEFAULT_TAGS"];
+    [ud setObject:default_tags forKey:@"SELECTED_TAGS"];
     [ud synchronize];
     
     return YES;

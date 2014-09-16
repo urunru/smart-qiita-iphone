@@ -27,38 +27,33 @@
     return self;
 }
 
-- (NSArray *)defaultTags
+- (void)setSelectedTags
 {
     NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
-    NSArray *tags = [ud arrayForKey:@"ALL_TAGS"];
-    return tags;
+    self.tags = [ud arrayForKey:@"SELECTED_TAGS"];
 }
 
--(NSArray *)getArticles;
+-(void)setArticles;
 {
-    self.tags = [self defaultTags];
     NSString *strTags = [self.tags componentsJoinedByString:@","];
     NSString *escapedString = [strTags stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLHostAllowedCharacterSet]];
     NSString *url = [NSString stringWithFormat:@"http://smart-qiita.herokuapp.com/article/?tags=%@", escapedString];
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
     NSData *json = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
-    return [NSJSONSerialization JSONObjectWithData:json options:NSJSONReadingAllowFragments error:nil];
+    self.articles = [NSJSONSerialization JSONObjectWithData:json options:NSJSONReadingAllowFragments error:nil];
 }
-
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
-    self.tags = [self defaultTags];
-    self.articles = [self getArticles];
     self.title = @"タグ一覧";
+}
+
+-(void) viewWillAppear:(BOOL)animated {
+    [self setSelectedTags];
+    [self setArticles];
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -96,18 +91,6 @@
     self.sendArticles = [self.articles filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"(tag == %@)", self.sendTag]];
     
     [self performSegueWithIdentifier:@"next" sender:self];
-}
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Make sure your segue name in storyboard is the same as this line
-    if ([[segue identifier] isEqualToString:@"next"])
-    {
-        // Get reference to the destination view controller
-        ArticleTableViewController *articleViewController = [segue destinationViewController];
-        articleViewController.recieveTag = self.sendTag;
-        articleViewController.recieveArticles = self.sendArticles;
-    }
 }
 
 /*
@@ -148,15 +131,17 @@
 }
 */
 
-/*
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    // Make sure your segue name in storyboard is the same as this line
+    if ([[segue identifier] isEqualToString:@"next"])
+    {
+        // Get reference to the destination view controller
+        ArticleTableViewController *articleViewController = [segue destinationViewController];
+        articleViewController.recieveTag = self.sendTag;
+        articleViewController.recieveArticles = self.sendArticles;
+    }
 }
-*/
-
 @end
