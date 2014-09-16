@@ -13,6 +13,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    NSArray *all_tags = [NSArray arrayWithObjects:@"ruby",@"javascript",@"rails",@"php",@"ios",@"objective-c",@"python",@"android",@"c",@"git",@"java",@"linux",@"mac",@"vim",@"node",@"xcode",@"iphone",@"mysql",@"aws",@"vagrant",@"jquery",@"centos",@"emacs",@"ubuntu",@"css",@"windows",@"macosx",@"bash",@"swift",@"scala",@"shellscript",@"どう書く",@"haskell",@"github",@"coffeescript",@"docker",@"html",@"go",@"zsh",@"perl",@"qiita",@"r",@"chef",@"heroku",@"html5",@"angularjs",@"unity",@"apache",@"homebrew",@"nginx",@"wordpress",@"osx",@"rspec",@"yhpg",@"eclipse",@"chrome",@"shell",@"adventcalendar",@"jenkins",@"ssh",@"mongodb",@"unity3d",@"virtualbox",@"sublimetext2",@"cakephp",@"twitter",@"clojure",@"grunt",@"cocos2d",@"ansible",@"groovy",@"titanium",@"ec2",@"gem",@"markdown",@"test",@"postgresql",@"fluentd",@"facebook",@"fuelphp",@"backbone",@"golang",@"tmux",@"capistrano",@"rbenv",@"django",@"css3",@"rails4",@"redmine",@"debian",@"laravel",@"excel",@"bootstrap",@"xamarin",@"terminal",@"sass",@"gitlab",@"sql",@"unix",@"googleappsscript", nil];
+    NSArray *default_tags = [NSArray arrayWithObjects:@"ruby",@"javascript",@"rails",@"php",@"ios",@"objective-c",@"python",@"android",@"c",@"git", nil];
+
+    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    [ud setObject:all_tags forKey:@"ALL_TAGS"];
+    [ud setObject:default_tags forKey:@"DEFAULT_TAGS"];
+    [ud synchronize];
+    
     return YES;
 }
 							

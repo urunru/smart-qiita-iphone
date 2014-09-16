@@ -29,7 +29,8 @@
 
 - (NSArray *)defaultTags
 {
-    NSArray *tags = [NSArray arrayWithObjects:@"ruby", @"javascript", @"rails", @"php", @"ios", @"objective-c", @"python", @"android", @"c", @"git", nil];
+    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    NSArray *tags = [ud arrayForKey:@"ALL_TAGS"];
     return tags;
 }
 
@@ -37,7 +38,9 @@
 {
     self.tags = [self defaultTags];
     NSString *strTags = [self.tags componentsJoinedByString:@","];
-    NSString *url = [NSString stringWithFormat:@"http://smart-qiita.herokuapp.com/article/?tags=%@", strTags];
+    NSString *escapedString = [strTags stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLHostAllowedCharacterSet]];
+    NSLog(@"%@", escapedString);
+    NSString *url = [NSString stringWithFormat:@"http://smart-qiita.herokuapp.com/article/?tags=%@", escapedString];
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
     NSData *json = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
     return [NSJSONSerialization JSONObjectWithData:json options:NSJSONReadingAllowFragments error:nil];
@@ -57,10 +60,6 @@
     self.tags = [self defaultTags];
     self.articles = [self getArticles];
     self.title = @"タグ一覧";
-    
-//    NSArray *data = [NSArray arrayWithObject:[NSMutableDictionary dictionaryWithObject:@"foo" forKey:@"BAR"]];
-//    NSLog(@"%@", self.articles[1]);
-    
 }
 
 - (void)didReceiveMemoryWarning

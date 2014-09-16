@@ -41,6 +41,7 @@
 		7617FF3B19C0478D00A3B9BC /* ArticleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7617FF3A19C0478D00A3B9BC /* ArticleTableViewController.m */; };
 		7617FF3E19C049F500A3B9BC /* ArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7617FF3D19C049F500A3B9BC /* ArticleTableViewCell.m */; };
 		7617FF4419C0538300A3B9BC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7617FF4319C0538300A3B9BC /* DetailViewController.m */; };
+		7628747D19C7E05000B65C5A /* TagTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7628747C19C7E05000B65C5A /* TagTableViewController.m */; };
 		76BB903319C076CB002E95D3 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB903219C076CB002E95D3 /* MenuTableViewController.m */; };
 		76BB903919C085EC002E95D3 /* TagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB903819C085EC002E95D3 /* TagViewController.m */; };
 		76BB903C19C0870D002E95D3 /* TagViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB903B19C0870D002E95D3 /* TagViewCell.m */; };
@@ -215,6 +216,8 @@
 		7617FF3D19C049F500A3B9BC /* ArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleTableViewCell.m; path = ../ArticleTableViewCell.m; sourceTree = "<group>"; };
 		7617FF4219C0538300A3B9BC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		7617FF4319C0538300A3B9BC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		7628747B19C7E05000B65C5A /* TagTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagTableViewController.h; sourceTree = "<group>"; };
+		7628747C19C7E05000B65C5A /* TagTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagTableViewController.m; sourceTree = "<group>"; };
 		76BB903119C076CB002E95D3 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuTableViewController.h; path = ../MenuTableViewController.h; sourceTree = "<group>"; };
 		76BB903219C076CB002E95D3 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewController.m; path = ../MenuTableViewController.m; sourceTree = "<group>"; };
 		76BB903719C085EC002E95D3 /* TagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagViewController.h; sourceTree = "<group>"; };
@@ -457,6 +460,8 @@
 				7606B6D019C5744D00C9A3A8 /* Image */,
 				7606B66819C5727F00C9A3A8 /* Library */,
 				7617FF0819C0475700A3B9BC /* Supporting Files */,
+				7628747B19C7E05000B65C5A /* TagTableViewController.h */,
+				7628747C19C7E05000B65C5A /* TagTableViewController.m */,
 			);
 			path = SmartQiita;
 			sourceTree = "<group>";
@@ -803,6 +808,7 @@
 				7606B6C619C572A500C9A3A8 /* SDWebImageDownloaderOperation.m in Sources */,
 				7606B6C719C572A500C9A3A8 /* SDWebImageManager.m in Sources */,
 				7617FF1219C0475700A3B9BC /* AppDelegate.m in Sources */,
+				7628747D19C7E05000B65C5A /* TagTableViewController.m in Sources */,
 				7617FF3B19C0478D00A3B9BC /* ArticleTableViewController.m in Sources */,
 				7606B6C519C572A500C9A3A8 /* SDWebImageDownloader.m in Sources */,
 				7606B6C019C572A500C9A3A8 /* MKAnnotationView+WebCache.m in Sources */,
