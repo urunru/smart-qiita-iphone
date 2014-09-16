@@ -1,22 +1,22 @@
 //
-//  MenuTableViewController.m
+//  TagTableViewController.m
 //  SmartQiita
 //
-//  Created by yutaka on 2014/09/10.
+//  Created by yutaka on 2014/09/16.
 //  Copyright (c) 2014年 yutaka. All rights reserved.
 //
 
-#import "MenuTableViewController.h"
-#import "ArticleTableViewController.h"
+#import "TagTableViewController.h"
 
-@interface MenuTableViewController ()
+@interface TagTableViewController ()
 
-@property NSString *sendTag;
-@property NSArray *sendArticles;
+@property NSArray *tags;
+@property NSArray *selectedIndexPaths;
+@property NSArray *selectedTags;
 
 @end
 
-@implementation MenuTableViewController
+@implementation TagTableViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -26,25 +26,6 @@
     }
     return self;
 }
-
-- (NSArray *)defaultTags
-{
-    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
-    NSArray *tags = [ud arrayForKey:@"ALL_TAGS"];
-    return tags;
-}
-
--(NSArray *)getArticles;
-{
-    self.tags = [self defaultTags];
-    NSString *strTags = [self.tags componentsJoinedByString:@","];
-    NSString *escapedString = [strTags stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLHostAllowedCharacterSet]];
-    NSString *url = [NSString stringWithFormat:@"http://smart-qiita.herokuapp.com/article/?tags=%@", escapedString];
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
-    NSData *json = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
-    return [NSJSONSerialization JSONObjectWithData:json options:NSJSONReadingAllowFragments error:nil];
-}
-
 
 - (void)viewDidLoad
 {
@@ -56,9 +37,10 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    self.tags = [self defaultTags];
-    self.articles = [self getArticles];
-    self.title = @"タグ一覧";
+    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    self.tags = [ud arrayForKey:@"ALL_TAGS"];
+    self.tableView.allowsMultipleSelection = YES;
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -81,6 +63,7 @@
     return self.tags.count;
 }
 
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
@@ -90,24 +73,19 @@
     return cell;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    self.sendTag = self.tags[indexPath.row];
-    self.sendArticles = [self.articles filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"(tag == %@)", self.sendTag]];
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+
+    cell.accessoryType = UITableViewCellAccessoryCheckmark;
     
-    [self performSegueWithIdentifier:@"next" sender:self];
+    // 選択されたインデックスパスを保存
+    self.selectedIndexPaths = [tableView indexPathsForSelectedRows];
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Make sure your segue name in storyboard is the same as this line
-    if ([[segue identifier] isEqualToString:@"next"])
-    {
-        // Get reference to the destination view controller
-        ArticleTableViewController *articleViewController = [segue destinationViewController];
-        articleViewController.recieveTag = self.sendTag;
-        articleViewController.recieveArticles = self.sendArticles;
-    }
+- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+
+    cell.accessoryType = UITableViewCellAccessoryNone;
 }
 
 /*
@@ -148,9 +126,22 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
+-(void) viewWillDisappear:(BOOL)animated {
+    self.selectedTags = [[NSArray alloc] init];
+    if ([self.navigationController.viewControllers indexOfObject:self]==NSNotFound) {
+        for (NSIndexPath *path in self.selectedIndexPaths) {
+            UITableViewCell *cell = (UITableViewCell *)[self.tableView cellForRowAtIndexPath:path];
+            self.selectedTags = [self.selectedTags arrayByAddingObject:cell.textLabel.text];
+        }
+        NSLog(@"%@", self.selectedTags);
+    }
+    [super viewWillDisappear:animated];
+}
+ 
+/*
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
